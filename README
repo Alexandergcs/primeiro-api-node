@@ -1,0 +1,36 @@
+Este é um projeto simples de API REST criada com Node.js e sem o uso de frameworks externos como Express. O objetivo é gerenciar usuários, permitindo operações como criação, listagem, atualização e exclusão.
+
+Funcionalidades
+Adicionar Usuário (POST /usuarios): Adiciona um novo usuário com um nome, e-mail e um ID único.
+Listar Usuários (GET /usuarios): Lista todos os usuários cadastrados.
+Atualizar Usuário (PUT /usuarios/:id): Atualiza as informações de um usuário específico pelo ID.
+Deletar Usuário (DELETE /usuarios/:id): Remove um usuário específico pelo ID.
+
+Tecnologias Utilizadas
+
+Node.js: Ambiente de execução para JavaScript no servidor.
+
+Módulos nativos:
+
+http: Para criar o servidor e testar as rotas
+crypto: Para gerar IDs únicos.
+
+Passos
+Clone o repositório:
+
+git clone https://github.com/seu-usuario/primeiro-api-node.git
+cd primeiro-api-node
+
+Instale as dependências (se houver):
+
+npm install
+Execute o servidor:
+
+node app.js
+Para desenvolvimento (com reinício automático):
+
+
+nodemon app.js
+Teste as rotas com o arquivo test.http ou ferramentas como Postman ou cURL.
+
+

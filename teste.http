@@ -1,0 +1,22 @@
+### Rota para adicionar um usuário
+POST http://localhost:3000/usuarios
+Content-Type: application/json
+
+{
+  "nome": "Carlos Alberto",
+  "email": "carlos.alberto@gmail.com"
+}
+
+### Rota para listar usuários
+GET http://localhost:3000/usuarios
+
+### Rota para atualizar um usuário
+PUT http://localhost:3000/usuarios/
+Content-Type: application/json
+
+{
+  "email": "joao.atualizado@example.com"
+}
+
+### Rota para deletar um usuário
+DELETE http://localhost:3000/usuarios/23406625-e009-41e8-9300-2f75570765b3
